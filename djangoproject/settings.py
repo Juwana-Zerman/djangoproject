@@ -29,8 +29,8 @@ SECRET_KEY = os.environ.get(
 DEBUG = False
 #DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1',
-                 'jzerman-django-blog.herokuapp.com/']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '*',
+                 'www.jzerman-django-blog.herokuapp.com/']
 
 
 # Application definition
